@@ -1,0 +1,74 @@
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.video {
+    width: 100vw;
+    height: 110vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+
+}
+.vid_part{
+    position: fixed;
+}
+.sm100{
+    transform: scale(0.95) ;
+    height: 100vh;
+
+
+}
+.sm200{
+    transform: scale(0.9) ;
+}
+
+.sm300{
+    transform: scale(0.85) ;
+}
+.sm400{
+    transform: scale(0.7) ;
+}
+.sm500{
+    transform:  translateY(-100px) scale(0.6) ;
+    -webkit-transform:  translateY(-100px) scale(0.6) ;
+    -moz-transform:  translateY(-100px) scale(0.6) ;
+    -ms-transform:  translateY(-100px) scale(0.6) ;
+    -o-transform:  translateY(-100px) scale(0.6) ;
+}
+.sm600{
+    transform:  translateY(-250px) scale(0.6) ;
+    -webkit-transform:  translateY(-250px) scale(0.6) ;
+    -moz-transform:  translateY(-250px) scale(0.6) ;
+    -ms-transform:  translateY(-250px) scale(0.6) ;
+    -o-transform:  translateY(-250px) scale(0.6) ;
+}
+.sm700{
+    transform:  translateY(-400px) scale(0.6) ;
+    -webkit-transform:  translateY(-350px) scale(0.6) ;
+    -moz-transform:  translateY(-350px) scale(0.6) ;
+    -ms-transform:  translateY(-350px) scale(0.6) ;
+    -o-transform:  translateY(-350px) scale(0.6) ;
+}
+.sm800{
+    transform:  translateY(-550px) scale(0.6) ;
+    -webkit-transform:  translateY(-450px) scale(0.6) ;
+    -moz-transform:  translateY(-450px) scale(0.6) ;
+    -ms-transform:  translateY(-450px) scale(0.6) ;
+    -o-transform:  translateY(-450px) scale(0.6) ;
+}
+
+.sm900{
+    transform:  translateY(-850px) scale(0.4) ;
+    -webkit-transform:  translateY(-850px) scale(0.4) ;
+    -moz-transform:  translateY(-850px) scale(0.4) ;
+    -ms-transform:  translateY(-850px) scale(0.4) ;
+    -o-transform:  translateY(-850px) scale(0.4) ;
+}
+
+.lorem{
+    position: absolute;
+    top: 1500px;
+}
