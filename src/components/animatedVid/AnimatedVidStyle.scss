@@ -9,27 +9,56 @@ video{
     position: fixed;
     left: 0;
     top: 0;
-
-
-}
-.vid_part{
-    position: fixed;
 }
 .sm100{
-    transform: scale(0.95) ;
     height: 100vh;
-
-
+    transform: scale(0.9) ;
+    -webkit-transform: scale(0.9) ;
+    -moz-transform: scale(0.9) ;
+    -ms-transform: scale(0.9) ;
+    -o-transform: scale(0.9) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 .sm200{
-    transform: scale(0.9) ;
+    transform: scale(0.8) ;
+    -webkit-transform: scale(0.8) ;
+    -moz-transform: scale(0.8) ;
+    -ms-transform: scale(0.8) ;
+    -o-transform: scale(0.8) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 
 .sm300{
-    transform: scale(0.85) ;
+    transform: scale(0.7) ;
+    -webkit-transform: scale(0.7) ;
+    -moz-transform: scale(0.7) ;
+    -ms-transform: scale(0.7) ;
+    -o-transform: scale(0.7) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 .sm400{
-    transform: scale(0.7) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transform: scale(0.6) ;
+    -webkit-transform: scale(0.6) ;
+    -moz-transform: scale(0.6) ;
+    -ms-transform: scale(0.6) ;
+    -o-transform: scale(0.6) ;
 }
 .sm500{
     transform:  translateY(-100px) scale(0.6) ;
@@ -37,6 +66,11 @@ video{
     -moz-transform:  translateY(-100px) scale(0.6) ;
     -ms-transform:  translateY(-100px) scale(0.6) ;
     -o-transform:  translateY(-100px) scale(0.6) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 .sm600{
     transform:  translateY(-250px) scale(0.6) ;
@@ -44,31 +78,64 @@ video{
     -moz-transform:  translateY(-250px) scale(0.6) ;
     -ms-transform:  translateY(-250px) scale(0.6) ;
     -o-transform:  translateY(-250px) scale(0.6) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 .sm700{
     transform:  translateY(-400px) scale(0.6) ;
-    -webkit-transform:  translateY(-350px) scale(0.6) ;
-    -moz-transform:  translateY(-350px) scale(0.6) ;
-    -ms-transform:  translateY(-350px) scale(0.6) ;
-    -o-transform:  translateY(-350px) scale(0.6) ;
+    -webkit-transform:  translateY(-400px) scale(0.6) ;
+    -moz-transform:  translateY(-400px) scale(0.6) ;
+    -ms-transform:  translateY(-400px) scale(0.6) ;
+    -o-transform:  translateY(-400px) scale(0.6) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 .sm800{
     transform:  translateY(-550px) scale(0.6) ;
-    -webkit-transform:  translateY(-450px) scale(0.6) ;
-    -moz-transform:  translateY(-450px) scale(0.6) ;
-    -ms-transform:  translateY(-450px) scale(0.6) ;
-    -o-transform:  translateY(-450px) scale(0.6) ;
+    -webkit-transform:  translateY(-550px) scale(0.6) ;
+    -moz-transform:  translateY(-550px) scale(0.6) ;
+    -ms-transform:  translateY(-550px) scale(0.6) ;
+    -o-transform:  translateY(-550px) scale(0.6) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 
 .sm900{
-    transform:  translateY(-850px) scale(0.4) ;
-    -webkit-transform:  translateY(-850px) scale(0.4) ;
-    -moz-transform:  translateY(-850px) scale(0.4) ;
-    -ms-transform:  translateY(-850px) scale(0.4) ;
-    -o-transform:  translateY(-850px) scale(0.4) ;
+    transform:  translateY(-700px) scale(0.6) ;
+    -webkit-transform:  translateY(-700px) scale(0.6) ;
+    -moz-transform:  translateY(-700px) scale(0.6) ;
+    -ms-transform:  translateY(-700px) scale(0.6) ;
+    -o-transform:  translateY(-700px) scale(0.6) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+}
+
+.sm1000{
+    transform:  translateY(-900px) scale(0.6) ;
+    -webkit-transform:  translateY(-900px) scale(0.6) ;
+    -moz-transform:  translateY(-900px) scale(0.6) ;
+    -ms-transform:  translateY(-900px) scale(0.6) ;
+    -o-transform:  translateY(-900px) scale(0.6) ;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 
 .lorem{
     position: absolute;
-    top: 1500px;
+    top: 1600px;
 }

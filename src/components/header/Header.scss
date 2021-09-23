@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    background: transparent;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    // &:hover{
+    //     background: #0F1129;
+    // }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .header__logo{
+            width: 100px;
+        }
+    }
+
+    &__list{
+        display: flex;
+
+        & li:not(:last-child){
+            margin-right: 30px;
+        }
+
+        .header__link{
+            text-transform: uppercase;
+        }
+    }
+}
+
