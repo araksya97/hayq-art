@@ -1,4 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+@font-face {
+  font-family: Brutal_Light;
+  src: url(./assets/fonts/brutal/Brutal_Light.ttf);
+}
+@font-face {
+  font-family: Brutal_Regular;
+  src: url(./assets/fonts/brutal/Brutal_Regular.ttf)
+}
+@font-face {
+  font-family: Brutal_Medium;
+  src: url(./assets/fonts/brutal/Brutal_Medium.ttf);
+}
+@font-face {
+  font-family: Brutal_Bold;
+  src: url(./assets/fonts/brutal/Brutal_Bold.ttf);
+}
 *, *:before, *:after {
   padding: 0;
   margin: 0;

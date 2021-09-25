@@ -1,9 +1,28 @@
 import React from 'react'
-
-export default function SecondPartCard() {
+import { Link } from 'react-router-dom'
+import './SecondPartCard.scss'
+export default function SecondPartCard(props) {
     return (
-        <div>
-            
-        </div>
+      
+            <div className="card">
+                <h4>
+                    <Link
+                        className="link"
+                        to="/">
+                        {props.title}
+                    </Link>
+                </h4>
+                <p>
+                    {props.text}
+                </p>
+                <div className="button">
+                    <Link
+                        className="link"
+                        to="/">
+                        {props.button}
+                    </Link>
+                </div>
+            </div>
+ 
     )
 }
