@@ -7,6 +7,7 @@ video{
     width: 100vw;
     height: 110vh;
     position: fixed;
+    z-index: 50;
     left: 0;
     top: 0;
 }
@@ -110,11 +111,11 @@ video{
 }
 
 .sm900{
-    transform:  translateY(-700px) scale(0.6) ;
-    -webkit-transform:  translateY(-700px) scale(0.6) ;
-    -moz-transform:  translateY(-700px) scale(0.6) ;
-    -ms-transform:  translateY(-700px) scale(0.6) ;
-    -o-transform:  translateY(-700px) scale(0.6) ;
+    transform:  translateY(-1700px) scale(0.6) ;
+    -webkit-transform:  translateY(-1700px) scale(0.6) ;
+    -moz-transform:  translateY(-1700px) scale(0.6) ;
+    -ms-transform:  translateY(-1700px) scale(0.6) ;
+    -o-transform:  translateY(-1700px) scale(0.6) ;
     transition: all .8s ease;
     -webkit-transition: all .8s ease;
     -moz-transition: all .8s ease;
@@ -122,20 +123,38 @@ video{
     -o-transition: all .8s ease;
 }
 
-.sm1000{
-    transform:  translateY(-900px) scale(0.6) ;
-    -webkit-transform:  translateY(-900px) scale(0.6) ;
-    -moz-transform:  translateY(-900px) scale(0.6) ;
-    -ms-transform:  translateY(-900px) scale(0.6) ;
-    -o-transform:  translateY(-900px) scale(0.6) ;
-    transition: all .8s ease;
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -ms-transition: all .8s ease;
-    -o-transition: all .8s ease;
+
+.vid_text{
+    position: fixed;
+    width: 700px;
+    bottom: 10%;
+    left: 5%;
+    z-index: 300;
+    transition: all 0.5s ease 0s;
+    color: rgba(255, 255, 255, 1);
+    p{
+        font-weight: 300;
+        font-size: 66px;
+        line-height: 74px;
+        letter-spacing: -1px;
+    }
 }
 
-.lorem{
-    position: absolute;
-    top: 1600px;
+
+.cont100{
+    transform: translateY(-80px);
+    color: rgba(255, 255, 255, .8);
+}
+
+.cont150{
+    transform: translateY(-180px);
+    color: rgba(255, 255, 255, .6);
+}
+.cont180{
+    transform: translateY(-300px);
+    color: rgba(255, 255, 255, .4);
+}
+.cont200{
+    transform: translateY(-1400px);
+    color: rgba(255, 255, 255, 0);
 }

@@ -2,6 +2,8 @@ import React, { PureComponent } from 'react';
 import './Header.scss';
 import logo from '../../assets/image/hayq-art.png';
 import { NavLink } from 'react-router-dom';
+
+
 export class Header extends PureComponent {
     render() {
         return (
