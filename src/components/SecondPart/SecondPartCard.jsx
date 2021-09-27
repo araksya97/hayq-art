@@ -15,7 +15,7 @@ export default function SecondPartCard(props) {
                 <p>
                     {props.text}
                 </p>
-                <div className="button">
+                <div className="btn button-border-gradient">
                     <Link
                         className="link"
                         to="/">

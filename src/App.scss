@@ -1,13 +1,86 @@
-.lorem{
-    position: absolute;
-    top: 1500px;
+.lorem {
+  position: absolute;
+  top: 1500px;
 }
 .container {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
+  @media (max-width: 1280px) {
     padding: 0 30px;
+  }
+  @media (max-width: 300px) {
+    padding-left: 0 15px;
+  }
+}
+.btn {
+  .link {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Brutal_Bold, 'Open Sans', arial;
+    font-weight: 500;
+    font-size: 13px;
+    transition: all 0.5s ease 0s;
     @media (max-width: 300px) {
-        padding-left: 0 15px;
+      padding: 10px;
+      letter-spacing: 1px;
+      font-size: 11px;
+    }
+  }
+}
+.button-border-gradient {
+  .link {
+    padding: 12px 24px;
+    border: 2px solid;
+    border-image-source: radial-gradient(
+      100% 185.14% at 100% 100%,
+      rgb(52, 195, 255) 0%,
+      rgb(51, 142, 238) 100%
+    );
+    border-image-slice: 1;
+    transition: all 0.5s ease 0s;
+    &:hover {
+      transition: all 0.5s ease 0s;
+      border-color: rgb(0, 87, 217);
+      border-image-source: radial-gradient(
+        100% 100% at 100% 100%,
+        rgb(0, 87, 217) 0%,
+        rgb(0, 87, 217) 100%
+      );
+      box-shadow: rgb(0, 87, 217) 0px 0px 18px;
+      background-color: transparent;
+    }
+  }
+}
 
-      }
+.button-underline {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    background: radial-gradient(
+      100% 185.14% at 100% 100%,
+      rgb(52, 195, 255) 0%,
+      rgb(51, 142, 238) 100%
+    );
+  }
+
+  padding: 12px 0 5px;
+  &:hover {
+    &::before {
+      animation: animateLine 1s;
+    }
+    
+  }
+}
+@keyframes animateLine {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+  }
 }
